@@ -1,6 +1,7 @@
 body {
   overflow-x: scroll;
-  overflow-y: scroll;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Resize in Mobile View */
@@ -13,23 +14,6 @@ body {
     font-size: 20px !important;
   }
 }
-
-@media handheld, only screen and (min-width: 767px) {
-    body {
-    height: 500px;
-    width:600px;
-    max-width: 320px;
-    float: left;
-    padding: 10px;
-    font-size: 100%;
-    margin: 10px;
-    word-wrap: break-word;
-    }
-}
-
- @media screen and (max-width: 600px)  {
-        .mobile-break { display: inherit; }
-    }
 /* Resize in Tablet View */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -39,19 +23,6 @@ body {
   .down-arrow {
     font-size: 30px !important;
   }
-}
-
-@media handheld, only screen and (min-width: 767px) {
-    body {
-    height: 500px;
-    width:600px;
-    max-width: 600px;
-    float: left;
-    padding: 10px;
-    font-size: 100%;
-    margin: 10px;
-    word-wrap: break-word;
-    }
 }
 /* Line Separators CSS */
 
@@ -95,7 +66,6 @@ body {
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  overflow-wrap: break-word;
   color: #fff;
   font-size: larger;
   font-family:Cambria, Cochin, Georgia, serif;
@@ -175,7 +145,7 @@ body {
 
 .container{
   max-height: 100vh;
-  max-width: 100%;
+  width: 100%;
   opacity: 70%;
   border-radius: 12%;
   background-color: #000000;
@@ -334,7 +304,6 @@ body {
 
 .first-inner-div {
     position: absolute;
-    max-width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
