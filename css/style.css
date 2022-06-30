@@ -6,6 +6,7 @@ body {
 
 @-ms-viewport{
   width: device-width;
+  height: device-height;
 }
 /* Resize in Mobile View */
 
