@@ -90,6 +90,7 @@ body {
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
+  overflow-wrap: break-word;
   color: #fff;
   font-size: larger;
   font-family:Cambria, Cochin, Georgia, serif;
