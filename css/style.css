@@ -12,6 +12,19 @@ body {
     font-size: 20px !important;
   }
 }
+
+@media handheld, only screen and (min-width: 767px) {
+    body {
+    height: 500px;
+    width:600px;
+    max-width: 320px;
+    float: left;
+    padding: 10px;
+    font-size: 100%;
+    margin: 10px;
+    word-wrap: break-word;
+    }
+}
 /* Resize in Tablet View */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -21,6 +34,19 @@ body {
   .down-arrow {
     font-size: 30px !important;
   }
+}
+
+@media handheld, only screen and (min-width: 767px) {
+    body {
+    height: 500px;
+    width:600px;
+    max-width: 600px;
+    float: left;
+    padding: 10px;
+    font-size: 100%;
+    margin: 10px;
+    word-wrap: break-word;
+    }
 }
 /* Line Separators CSS */
 
