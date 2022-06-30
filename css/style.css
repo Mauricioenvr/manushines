@@ -26,7 +26,7 @@ body {
     }
 }
 
- @media screen and (min-width: 600px)  {
+ @media screen and (max-width: 600px)  {
         .mobile-break { display: none; }
     }
 /* Resize in Tablet View */
