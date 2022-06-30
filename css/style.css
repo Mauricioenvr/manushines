@@ -1,5 +1,6 @@
 body {
   overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 /* Resize in Mobile View */
