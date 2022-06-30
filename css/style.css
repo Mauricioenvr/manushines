@@ -27,7 +27,7 @@ body {
 }
 
  @media screen and (max-width: 600px)  {
-        .mobile-break { display: none; }
+        .mobile-break { display: inherit; }
     }
 /* Resize in Tablet View */
 
